@@ -77,17 +77,56 @@
         flex-direction: column;
     }
 
-    .destination-container h1{
+    .destination-container h1 {
         font-size: 20px;
         margin-top: 24px;
     }
 
-    .photo-collage{
+    .photo-collage {
         padding-left: 40px;
     }
 
     .photo-collage img {
         width: 335px;
         height: 176px;
+    }
+
+    .card-main {
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .why-choose-us-container {
+        margin-top: 24px;
+    }
+
+    .why-choose-us-container h1 {
+        font-size: 20px;
+    }
+
+    .card-main{
+        margin-bottom: 0px;
+    }
+
+    .card {
+        width: 335px;
+        height: 335px;
+        margin-bottom: 16px;
+    }
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .card p {
+       
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 271px;
+        /* 171.429% */
     }
 }
