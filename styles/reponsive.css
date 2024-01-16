@@ -108,7 +108,7 @@
         font-size: 20px;
     }
 
-    .card-main{
+    .card-main {
         margin-bottom: 0px;
     }
 
@@ -117,16 +117,79 @@
         height: 335px;
         margin-bottom: 16px;
     }
+
     .card h3 {
         font-size: 20px;
     }
 
     .card p {
-       
+
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
         width: 271px;
         /* 171.429% */
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .newsletter-info {
+        width: 335px;
+        height: 353px;
+        margin-left: 40px;
+    }
+
+    .newsletter-info p{
+        text-align: center;
+    }
+
+    .newsletter-info h3{
+        margin-bottom: 0;
+    }
+    hr {
+        width: 288px;
+        height: 1px;
+    }
+
+    .img-container img {
+        width: 400px;
+        height: 335px;
+    }
+
+    .img-container {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .form-info {
+        width: 288px;
+        height: 52px;
+    }
+
+    .subscribe-btn {
+        width: 288px;
+        height: 52px;
+        margin-bottom: 25px;
+    }
+
+    .inner {
+        width: 214.023px;
+        height: 79.268px;
+    }
+
+    .inner p {
+        font-size: 16px;
+    }
+
+    .inner h2 {
+        font-size: 24px;
+    }
+    .footer-container{
+        margin-top: 10px;
+    }
+    .footer-container hr{
+        width: 335px;
     }
 }
