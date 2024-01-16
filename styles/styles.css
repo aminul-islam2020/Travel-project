@@ -143,10 +143,11 @@ header {
     margin: 100px auto;
 }
 
-.tour-content{
+.tour-content {
     text-align: left;
     width: 50%;
 }
+
 .tour-content h1 {
     color: #131318;
     font-size: 40px;
@@ -174,8 +175,38 @@ header {
     /* 162.5% */
 }
 
-.tour-image{
+.tour-image {
     padding-left: 100px;
 }
 
 /* tour section style ends here */
+
+/* Destination section style starts here */
+.destination-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.destination-container h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination-container p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    /* 162.5% */
+}
+
+.photo-row img{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+/* Destination section style ends here */

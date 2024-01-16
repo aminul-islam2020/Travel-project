@@ -4,60 +4,90 @@
         align-items: center;
     }
 
-    .items-container, .banner-info {
+    .items-container,
+    .banner-info {
         flex-direction: column;
     }
 
-    .nav-container{
+    .nav-container {
         width: 100%;
         justify-content: center;
     }
+
     .nav-container h2 {
         font-size: 21.543px;
         font-weight: 800;
     }
-    .items-container a{
+
+    .items-container a {
         gap: 5px;
     }
 
-    .banner-section{
+    .banner-section {
         max-width: 335px;
         background-position: center;
     }
-    .banner-info{
+
+    .banner-info {
         width: 287px;
     }
-    .banner-heading{
+
+    .banner-heading {
         font-size: 22px;
         margin-bottom: 8px;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 14px;
         margin-bottom: 32px;
     }
-    .banner-container{
+
+    .banner-container {
         padding-top: 32px;
     }
-    .tour-container{
+
+    .tour-container {
         flex-direction: column;
         margin: 0 auto;
-        padding-left: 50px;
+        padding-left: 40px;
         align-items: flex-start;
     }
-    .tour-content h1{
+
+    .tour-content h1 {
         font-size: 20px;
         margin-top: 24px;
         margin-bottom: 16px;
     }
-    .tour-content p{
+
+    .tour-content p {
         font-size: 14px;
         line-height: 24px;
     }
-    .tour-image{
-       padding-left: 0;
-       margin-top: 24px;
+
+    .tour-image {
+        padding-left: 0;
+        margin-top: 24px;
     }
-    .tour-image img{
+
+    .tour-image img {
         width: 335px;
+    }
+
+    .destination-container {
+        flex-direction: column;
+    }
+
+    .destination-container h1{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .photo-collage{
+        padding-left: 40px;
+    }
+
+    .photo-collage img {
+        width: 335px;
+        height: 176px;
     }
 }
