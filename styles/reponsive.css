@@ -1,0 +1,41 @@
+@media screen and (max-width:676px) {
+    .nav-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items-container, .banner-info {
+        flex-direction: column;
+    }
+
+    .nav-container{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-container h2 {
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    .items-container a{
+        gap: 5px;
+    }
+
+    .banner-section{
+        max-width: 335px;
+        background-position: center;
+    }
+    .banner-info{
+        width: 287px;
+    }
+    .banner-heading{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .banner-description{
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .banner-container{
+        padding-top: 32px;
+    }
+}
