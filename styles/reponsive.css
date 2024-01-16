@@ -38,4 +38,26 @@
     .banner-container{
         padding-top: 32px;
     }
+    .tour-container{
+        flex-direction: column;
+        margin: 0 auto;
+        padding-left: 50px;
+        align-items: flex-start;
+    }
+    .tour-content h1{
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    .tour-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .tour-image{
+       padding-left: 0;
+       margin-top: 24px;
+    }
+    .tour-image img{
+        width: 335px;
+    }
 }
